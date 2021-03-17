@@ -1,0 +1,14 @@
+{
+  "name": "language-waveasm",
+  "version": "0.0.0",
+  "description": "WaveAsm assembly files language",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/Meisaka/language-waveasm",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
