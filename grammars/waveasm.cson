@@ -8,9 +8,19 @@
 'fileTypes': [
   'asm', 'ainc'
 ]
-'patterns': [
-  {
-    'match': '^\\s*@@.*$'
-    'name': 'comment'
-  }
-]
+scopes:
+	'label > identifier': 'entity.name.class'
+	'ex_label > identifier': 'entity.name.class'
+	'register': 'variable'
+	'comment': 'comment'
+	'operation > opcode': 'entity.name.function'
+	'dname': 'keyword.control'
+	'char': 'constant.character'
+	'char > escape': 'constant.character.escape'
+	'const_zero': 'constant.numeric'
+	'const_dec': 'constant.numeric'
+	'const_hex': 'constant.numeric'
+	'const_oct': 'constant.numeric'
+	'const_bin': 'constant.numeric'
+	'string': 'string'
+	'string > escape': 'constant.character.escape'

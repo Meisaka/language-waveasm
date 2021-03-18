@@ -1,14 +1,20 @@
 {
-  "name": "language-waveasm",
-  "version": "0.0.0",
-  "description": "WaveAsm assembly files language",
-  "keywords": [
-    "language",
-    "grammar"
-  ],
-  "repository": "https://github.com/Meisaka/language-waveasm",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+	"name": "language-waveasm",
+	"version": "0.1.0",
+	"description": "WaveAsm assembly files language",
+	"keywords": [
+		"language",
+		"grammar"
+	],
+	"repository": "https://github.com/Meisaka/language-waveasm",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"tree-sitter-waveasm": ">=0.2.0"
+	},
+	"devDependencies": {
+		"electron-rebuild": "^2.3.5"
+	}
 }
